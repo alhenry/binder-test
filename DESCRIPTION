@@ -1,0 +1,23 @@
+Type: Compendium
+Package: test
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: description
+License: What license it uses
+Depends: 
+    dataRetrieval,
+    dplyr,
+    ggplot2,
+    lubridate,
+    tidyr,
+    viridis
+Remotes: 
+    tidyverse/tidyr
+Encoding: UTF-8
+LazyData: true
